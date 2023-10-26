@@ -13,6 +13,8 @@ url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@
 --blanco: #fff;
 --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
 }
+
+
 *{
 margin:0;
 }
@@ -147,6 +149,39 @@ nav{
     font-family: 'Marcellus', serif;
     color: var(--blanco);
     }
+/*Resolución notebooks*/
+@media screen and (min-width: 1024px){
+.nav{
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--negro2);
+    }
+.logo{
+    padding: 1rem;
+    }
+.logo img{
+    width: 100%;
+    max-width: 180px;
+    }
+.logo i{ 
+    display: none;
+    }
+.menu{
+    background-color: var(--negro2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+.menu-hr{ 
+    display: none;
+    }
+.navbar-button{
+    background-color:var(--azuloscuro);
+    }
+}
+    
 
 
         
