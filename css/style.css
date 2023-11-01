@@ -1,5 +1,6 @@
 @import
 url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,1000,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* alt+z */
 :root{
 --azulclaro: #48D6ED;
 --azuloscuro: #337AB7;
@@ -12,12 +13,14 @@ url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@
 --Magenta: #9C2759;
 --blanco: #fff;
 --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
-}
+} 
+/* definiendo colores para luego solamente llamarlo */
 
 
 *{
 margin:0;
 }
+/* resetear el margen */
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -31,13 +34,15 @@ h1,h2,h3,h4,h5{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
+    /* espacio entre elementos */
     background-color: var(--negro);
     font-family: 'Marcellus', serif;
     font-size: 1.3em;
      padding: 1rem;
+     /* espacio entre la margen y los elementos */
     }
-
+/* flex: justifica vertica, horizontal, entre elementos, elementos de un elemento */
 .item{
     padding: 1rem;
     }
