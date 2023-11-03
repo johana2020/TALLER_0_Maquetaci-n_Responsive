@@ -1,7 +1,7 @@
 /*front 
 scripts EMCaScripts  isomorfico 
 express como mongo
-no necesita tipo de dato en las variables ni : ;  
+  
 motor de ejecucion de java google b8
 fire fox spikermonkey
 para usar express hay que usar nodejs instalar
@@ -39,6 +39,7 @@ console.clear()vctrl+l
 let num1 =parseInt(prompt("digite el primer numero"))
 let num2 =parseInt(prompt("digite el segundo numero"))
 console.log(`la suma es ${num1+num2}`);
+
 // modificar el tipo de dato o parsear 
 
 
