@@ -187,11 +187,12 @@ let jugador =parseInt(prompt("nombre del jugador"))
 let saldo =parseInt(prompt("cuanto va a recargar"))
 let apuesta =parseInt(prompt("digite el valor de su apuesta"))
 let eleccion =parseInt(prompt("apuesta 1 cara || apuesta 2 sello"))
-ganar(1000,apuesta);
+ganar(saldo,apuesta);
 perder(saldo,apuesta);
 
-if(moneda==1){
-    eleccion
+if(moneda===1){
+    eleccion === 1;
+    apuesta == ganar;
 }
 
 console.log(` ${moneda===eleccion}`);
